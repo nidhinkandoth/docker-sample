@@ -11,4 +11,4 @@ WORKDIR /tmp/workdir
 
 COPY rename_image.sh /tmp/workdir
 
-ENTRYPOINT ./rename_image.py && ./copy_to_s3.sh
+ENTRYPOINT ./rename_image.sh
